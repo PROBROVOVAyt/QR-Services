@@ -6,7 +6,7 @@ const Navigation = () => {
       <div className="mx-4 my-2">
         <Link
           className="text-2xl font-medium transition-all hover:text-3xl hover:text-cyan-400"
-          to="/generate"
+          to="/qr-services/generate"
         >
           QR Code Generator
         </Link>
@@ -14,7 +14,7 @@ const Navigation = () => {
       <div className="mx-4 my-2">
         <Link
           className="text-2xl font-medium transition-all hover:text-3xl hover:text-cyan-400"
-          to="/scanner"
+          to="/qr-services/scanner"
         >
           QR Code Scanner
         </Link>
@@ -22,7 +22,7 @@ const Navigation = () => {
       <div className="mx-4 my-2">
         <Link
           className="text-2xl font-medium transition-all hover:text-3xl hover:text-cyan-400"
-          to="/generate/history"
+          to="/qr-services/generate/history"
         >
           Generator History
         </Link>
@@ -30,7 +30,7 @@ const Navigation = () => {
       <div className="mx-4 my-2">
         <Link
           className="text-2xl font-medium transition-all hover:text-3xl hover:text-cyan-400"
-          to="/scanner/history"
+          to="/qr-services/scanner/history"
         >
           Scanner History
         </Link>
